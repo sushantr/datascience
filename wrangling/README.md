@@ -1,6 +1,8 @@
-# datascience
+# Data Wrangling
 
-## 1 Data Wrangling
+## 1 Pandas
+
+Sample code to try pandas dataframe capability
 
 1. ran the following:
 
