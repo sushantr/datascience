@@ -1,5 +1,5 @@
 # Semantic Network
-===================
+
 
 Apply Neo4J to represent a decision tree using semantic network approach.
 
