@@ -16,8 +16,6 @@ import org.apache.mahout.cf.taste.similarity.UserSimilarity;
 import java.io.IOException;
 
 /**
- * Created with IntelliJ IDEA.
- * User: BCE8959
  * Date: 12/11/14
  * Time: 8:26 PM
  */

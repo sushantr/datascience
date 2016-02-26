@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by bce8959 on 2/20/2015.
+ * Created by on 2/20/2015.
  */
 public class DataAccess {
     public static Map<Long, String> getMemberMap() {

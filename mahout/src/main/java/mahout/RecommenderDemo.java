@@ -17,8 +17,6 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created with IntelliJ IDEA.
- * User: BCE8959
  * Date: 12/11/14
  * Time: 7:01 PM
  */
