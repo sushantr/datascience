@@ -11,4 +11,4 @@ A placeholder for Data Science related projects/code samples
 
 ## [2. Semantic Network](semanticnetwork/README.md)
 
-## [3. Mahout] (mahout/ReadMe.md)
+## [3. Mahout] (mahout)
