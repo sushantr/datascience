@@ -1,0 +1,8 @@
+repository = ${SVN.repository}
+path = ${SVN.path}
+revision = ${SVN.revision}
+mixedRevisions = ${SVN.mixedRevisions}
+committedRevision = ${SVN.committedRevision}
+committedDate = ${SVN.committedDate}
+status = ${SVN.status}
+specialStatus = ${SVN.specialStatus}

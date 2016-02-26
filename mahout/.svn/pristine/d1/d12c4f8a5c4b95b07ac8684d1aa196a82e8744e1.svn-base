@@ -1,0 +1,91 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>mahout</groupId>
+    <artifactId>mahout</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <name>mahout</name>
+    <url>http://maven.apache.org</url>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mahout.version>0.9</mahout.version>
+    </properties>
+
+    <build>
+        <finalName>${project.artifactId}-${project.version}-r${SVN.revision}${SVN.specialStatus}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+        <plugins>
+
+            <plugin>
+                <groupId>com.google.code.maven-svn-revision-number-plugin</groupId>
+                <artifactId>svn-revision-number-maven-plugin</artifactId>
+                <version>1.13</version> <!-- please use the latest version -->
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>revision</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!-- put required configuration here -->
+                    <entries>
+                        <entry>
+                            <path>${project.basedir}</path>
+                            <prefix>SVN</prefix>
+                            <depth>infinity</depth>
+                            <reportUnversioned>true</reportUnversioned>
+                            <reportIgnored>false</reportIgnored>
+                            <reportOutOfDate>false</reportOutOfDate>
+                        </entry>
+                    </entries>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.mahout</groupId>
+            <artifactId>mahout-core</artifactId>
+            <version>${mahout.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.3.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.7.7</version>
+        </dependency>
+    </dependencies>
+</project>
