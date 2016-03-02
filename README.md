@@ -11,8 +11,9 @@ A placeholder for Data Science related projects/code samples
 
 ## [2. Pandas, Sci-K Learn, Numpy] (pandas)
 
-## [3. Data Wrangling](wrangling/README.md)
+## [3. Mahout] (mahout)
 
-## [4. Semantic Network](semanticnetwork/README.md)
+## [4. Data Wrangling](wrangling)
 
-## [5. Mahout] (mahout)
+## [5. Semantic Network](semanticnetwork)
+
