@@ -1,5 +1,5 @@
-The POC was inspired from the paper "paper_on_collaborative_filtering.pdf"
-This paper is attached with in the src folder
+The recommendation code was inspired from the paper "paper_on_collaborative_filtering.pdf"
+
 
 ## What is Mahout
 It is an Apache open source Machine Learning library. It provides machine learning algorithms focused in the areas of collaborative filtering, clustering and classification.
