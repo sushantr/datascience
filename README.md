@@ -7,7 +7,7 @@ The promise of data science is to be able to algorithmically gain insights. Insi
 
 A placeholder for Data Science related projects/code samples
 
-## [1. Mahout] (r_programming)
+## [1. R Programming] (r_programming)
 
 ## [2. Data Wrangling](wrangling/README.md)
 
