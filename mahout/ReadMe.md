@@ -1,4 +1,4 @@
-The recommendation code was inspired from the paper "paper_on_collaborative_filtering.pdf"
+The recommendation code was inspired from the paper [Collaborative Filtering.pdf](https://ssc.io/pdf/cf-mahout.pdf)
 
 
 ## What is Mahout
