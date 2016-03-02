@@ -7,4 +7,4 @@ Here are some of its main use cases:
 * Classification - Classification techniques decide how much a thing is or isn’t part of some type or category, or how much it does or doesn’t have some attribute.
 
 
-## [Recommender Project] (recommender1)
+### [Recommender Project] (recommender1)
