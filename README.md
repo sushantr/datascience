@@ -9,7 +9,7 @@ A placeholder for Data Science related projects/code samples
 
 ## [1. R Programming] (r_programming)
 
-## [2. R Programming] (pandas)
+## [2. Pandas, Sci-K Learn, Numpy] (pandas)
 
 ## [3. Data Wrangling](wrangling/README.md)
 
