@@ -9,8 +9,10 @@ A placeholder for Data Science related projects/code samples
 
 ## [1. R Programming] (r_programming)
 
-## [2. Data Wrangling](wrangling/README.md)
+## [2. R Programming] (pandas)
 
-## [3. Semantic Network](semanticnetwork/README.md)
+## [3. Data Wrangling](wrangling/README.md)
 
-## [4. Mahout] (mahout)
+## [4. Semantic Network](semanticnetwork/README.md)
+
+## [5. Mahout] (mahout)
