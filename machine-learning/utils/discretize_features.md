@@ -75,6 +75,8 @@ df_train.head()
 
 
 
+It's probably faster and easier to use numpy.digitize():
+
 
 ```python
 bins = np.linspace(0, 1, 10)
@@ -103,6 +105,44 @@ digitized[0:10]
            [ 0,  0,  0],
            [ 3,  6,  0],
            [ 0,  0,  4]])
+
+
+
+
+```python
+bin_means = [df_train[digitized == i].mean() for i in range(1, len(bins))]
+```
+
+
+```python
+bin_means[0:2]
+```
+
+
+
+
+    array([ 0.05897551,  0.17265429])
+
+
+
+An alternative to this is to use numpy.histogram():
+
+
+```python
+bin_means = (np.histogram(df_train, bins, weights=df_train)[0] /
+             np.histogram(df_train, bins)[0])
+```
+
+
+```python
+bin_means
+```
+
+
+
+
+    array([ 0.05897551,  0.17265429,  0.28207422,  0.38843034,  0.49765604,
+            0.61197011,  0.72088121,  0.83186996,  0.94432476])
 
 
 
