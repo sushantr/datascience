@@ -14,13 +14,17 @@ def fit():
 
 	devices  = [1,2,3,4,5,6,7,2,3,4,5,6,7]
 
-	outcomes = [2,3,5,5,7,7,9,3,4,5,6,7,9]
+	outcomes = [8,3,5,5,7,7,9,3,4,5,6,7,9]
 
 	df1 = pd.DataFrame(outcomes, index=range(0,len(outcomes)), columns=['outcome'])
 
 	df2 = pd.DataFrame(devices, index=range(0,len(devices)), columns=['device'])
 
 	frames = [df1, df2]
+
+	print df1.iloc[:,0].std()
+	print df1.stack().std()
+	print df1.values.std(ddof=1)
 
  	#df_main = pd.concat(frames)
 
