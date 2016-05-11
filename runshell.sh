@@ -1,1 +1,0 @@
-sh commitai.sh
