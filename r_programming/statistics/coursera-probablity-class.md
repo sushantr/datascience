@@ -2,5 +2,12 @@
 
 All variables
  - numerical - quantitative
+ -- continuous
+ -- discrete
  - categorical - qualitative
+ -- ordinal
+ -- regular categorical
+
+
+ 
 
